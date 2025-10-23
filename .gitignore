@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Environment variables
+.env
+
+# Data (large files)
+data/raw/sec-edgar-filings/
+data/chroma_db/
+data/chroma_db_parallel/
+data/lakehouse/
+
+# Generated outputs (can recreate)
+outputs/*.json
+outputs/charts/*.png
+data/processed/*.csv
